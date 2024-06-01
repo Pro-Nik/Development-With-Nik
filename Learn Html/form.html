@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html forms</title>
+</head>
+
+<body>
+    <form action="/action.php">
+        <center><h2>Registration Form</h2></center>
+        Name: <input type="text" placeholder="Name">
+        <br>
+        <br>
+
+        User Name: <input type="text" placeholder="User Name">
+        <br>
+        <br>
+
+        Password: <input type="password" placeholder="Password">
+        <br>
+        <br>
+
+
+        <h3>Select your class:</h3>
+        <label for="101">
+            <input type="radio" value="class 10" name="class" id="101">Class 10th
+        </label>
+
+        <label for="102">
+            <input type="radio" value="class 12" name="class" id="102">Class 12th
+        </label>
+<br>
+<h3>Select your favourite subject</h3>
+        <label for="math">
+            <input type="checkbox" value="math" name="subject" id="101"> Math
+        </label>
+        <label for="pysics">
+            <input type="checkbox" value="phy" name="subject" id="102"> Physics
+        </label>
+        <label for="Chemistry">
+            <input type="checkbox" value="chem" name="subject" id="103"> Chemistry
+        </label>
+        <label for="Computer">
+            <input type="checkbox" value="cs" name="subject" id="104"> Computer Science
+        </label>
+        <br>
+
+        <h3>Select your city:</h3>
+        <select name="city" id="">
+            <option value="Delhi">Delhi</option>
+            <option value="Banglore">Banglore</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Noida">Noida</option>
+
+        </select>
+
+        <h3>Please share your feedback</h3>
+        <textarea name="feedback" id="101" placeholder="Your Feedback" rows="10" cols="30"></textarea>
+        <br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
+</body>
+
+</html>
