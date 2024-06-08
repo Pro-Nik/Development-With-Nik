@@ -1,0 +1,65 @@
+/* Exernal CSS */
+
+/* body{
+
+    background-color: rgb(214, 234, 227);
+
+} */
+
+/* h1{
+    color: blueviolet;
+    background-color: rgb(190, 162, 124);
+} */
+
+/* p{
+    color: rgb(30, 89, 190);
+    color: rgb(150,55,100);
+} */
+
+/* button{
+    color: rgb(227, 30, 142);
+    background-color: rgb(241, 215, 215);
+} */
+
+/* default rgb() colour */
+/* 0 to 255 */
+/* red rgb(255,0,0) */
+/* yellow rgb(255,255,0) */
+
+/* hexa decimal  */
+/* 00 to ff */
+/* color #00000 */
+/* color #00ff00 (green) */
+/* color #ff0000 (red) */
+/* color #ffff00 (yellow) */
+
+
+/* selector */
+/* 1. universal 
+2. element 
+3. id  unique
+4. class multiple */
+
+*{
+    /* font-size: 2px; */
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(150, 232, 229);
+}
+
+/* h1{
+    color: rgb(95, 20, 85);
+} */
+
+#i1{
+   color: rgb(112, 27, 112);
+}
+#i2{
+    color: rgb(124, 64, 129);
+}
+#i3{
+    color: blueviolet;
+}
+
+.c{
+    background-color: aquamarine;
+}

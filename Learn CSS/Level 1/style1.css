@@ -1,0 +1,84 @@
+p{
+    /* text-align: right; */
+    /* start = left , end = right */
+    /* text-align: start;  */
+    text-align: justify;
+}
+h2{
+    /* text-align: right; */
+    text-align: center;
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    /* text-decoration: green wavy underline; */
+    text-decoration: green dotted underline;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* font weight = 100 - 900 (lighter-Bolder) */
+/* bold = 400 */
+
+
+#id1{
+    /* font-weight: normal; */
+    font-weight: 100;
+
+}
+
+#id2{
+    /* font-weight: bold; */
+    font-weight: 300;
+
+}
+
+#id3{
+    /* font-weight: bolder; */
+    font-weight: 600;
+
+}
+
+#id4{
+    /* font-weight: lighter; */
+    font-weight: 900;
+
+}
+
+/*
+2 types of font family
+1. Generic font families
+2. Specific font families
+
+
+*/
+#one{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Fall back machanism */
+
+#two{
+    font-family: Geneva, Verdana, sans-serif;
+}
+
+/* Units in CSS  1. Absolute 2. Relative*/
+/* only absolute now */
+
+/* 96 px = 1 Inch = 2.54 cm */
+
+#p1{
+    font-size: 30px;
+    /* line-height: 50px; */
+    line-height: normal;
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+    text-transform: capitalize;
+}
+#p2{
+    font-size: 20px;
+}
+#p3{
+    font-size: 15px;
+}
