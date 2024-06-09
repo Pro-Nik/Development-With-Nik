@@ -1,0 +1,35 @@
+/* div{
+    background-color: bisque;
+    display: inline;
+}
+button{
+    background-color: aquamarine;
+    display: block;
+    
+} */
+
+div{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+/* inline block - similar to inline but we can set margin and padding */
+
+#box2{
+    /* display: none; */
+    visibility: hidden;
+}
+/* 
+Alpha channel
+RGBA (255,0,0,0,1) red
+A - 0 -1 
+
+0 means opacity low
+1 means obasity high
+*/
+
+#box1{
+    background-color:rgba(255,0,0,0.7) ; 
+}
