@@ -1,0 +1,63 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: bisque;
+    border: 2px solid green;
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    /* transition-property: all; */
+    /* transition-duration: 2s; */
+    /* transition-timing-function: steps(3); */
+    /* transition-timing-function: ease-in; */
+    /* transition-timing-function: linear; */
+    /* transition-delay: 2s; */
+    /* Transition shorthand */
+    /* property name| duration| timing-func| delay */
+
+    /* transition: all 2s ease-in 1s; */
+
+    transition: all 2s ease-in;
+
+
+
+
+    /* Transform property */
+
+    /* transform: rotate(90deg); */
+    /* transform: scale(1.5); */
+    /* transform: scale(1,2); */
+    /* transform: scale(2,1); */
+    /* transform: scaleX(2);
+    transform: scaleY(2); */
+
+
+
+}
+
+div:hover{
+    background-color: aquamarine;
+    color: blue;
+    font-size: 20px;
+    /* transform: scale(2,1); */
+    /* transform: rotate(90deg); */
+
+    /* translate */
+    /* transform: translate(200px); */
+    /* transform: translate(-200px); */
+    /* transform: translatey(200px); */
+    /* transform: translatey(-200px); */
+
+    /* skew */
+
+    transform: skew(90deg);
+
+
+
+
+}
+
+div:active{
+
+    background-color: rgb(156, 126, 184);
+}
