@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background-Image</title>
+    <style>
+        div {
+            height: 100px;
+            width: 100px;
+            background-color: rgb(146, 229, 150);
+            border: 2px solid black;
+            display: inline-block;
+        }
+
+        #box1{
+            background-image: url("img1\ \(1\).jpg");
+            background-size: cover;
+            
+        }
+
+        #box2{
+            background-image: url("img1\ \(2\).jpg");
+            background-size: contain;
+            /* repeat */
+            background-repeat: no-repeat;
+        }
+
+        #box3{
+            background-image: url("img1\ \(4\).jpg");
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Position Play</h1>
+    <div id="box1">Box 1</div>
+    <div id="box2">Box 2</div>
+    <div id="box3">Box 3</div>
+    <div id="box4">Box 4</div>
+</body>
+
+</html>

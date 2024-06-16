@@ -1,0 +1,66 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: bisque;
+    border: 2px solid green;
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    /* animation-name: coloranimate;
+    animation-duration: 2s; */
+    /* animation-timing-function: ease-in; */
+    /* animation-delay: 0s;
+    animation-iteration-count: infinite; */
+    /* animation-direction: normal; */
+    /* animation-direction: reverse; */
+    
+
+    /* animation sorthand */
+    animation: coloranimate 2s ease-in 1s infinite normal;
+}
+
+/* @keyframes coloranimate {
+    from{background-color: bisque;}
+    to{background-color: rgb(97, 184, 239); }
+    
+} */
+
+/* @keyframes coloranimate {
+    from{
+        left: 0px;
+        background-color: bisque;
+}
+    to{
+        left: 500px;
+        background-color: aquamarine; 
+    }
+    
+} */
+
+@keyframes coloranimate {
+    0%{
+        left: 0px;
+        background-color: bisque;
+}
+
+25%{
+    background-color: rgb(121, 130, 207);
+    font-size: 25px;
+}
+
+50%{
+    background-color: rgb(109, 231, 109);
+    font-size: 50px;
+}
+
+75%{
+    background-color: chocolate;
+    font-size: 30px;
+}
+    100%{
+        left: 500px;
+        background-color: aquamarine; 
+        font-size: 20px;
+    }
+    
+}

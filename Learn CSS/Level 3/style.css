@@ -1,0 +1,36 @@
+/* #box1{
+    height: 100px;
+    width:200px;
+    background-color: rgb(108, 254, 167);
+}
+
+#box2{
+    height: 50px;
+    
+    width: 50%;
+    background-color: rgb(224, 176, 116);
+    margin-left: 10%;
+} */
+
+#box1{
+    height: 100px;
+    width:200px;
+    background-color: rgb(108, 254, 167);
+    font-size: 10px;
+}
+
+#box2{
+    /* height: 50px; */
+
+    height: 50vh;
+    /* width: 50%; */
+    width: 50vw;
+    background-color: rgb(224, 176, 116);
+    margin-left: 10%;
+    font-size: 2em;
+    /* 2 times of the parent font size */
+    /* width: 5em; */
+    /* means 10px*2px*5px = 100px  width depends on the size of element font size itself*/
+
+    width: 5rem;
+}
